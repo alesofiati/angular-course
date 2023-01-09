@@ -1,3 +1,4 @@
+import { User } from './interfaces/User';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-curso';
+  userData:User = {
+    id: 1,
+    name: 'Alexandre',
+    email:'alexandresofiati@gmail.com'
+  }
 }
