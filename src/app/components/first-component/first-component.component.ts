@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class FirstComponentComponent implements OnInit {
   name:String = 'Alexandre Soffiatti Santos'
+  hobbies = ["Jogar", "Ler", "Programar", "Estudar"]
 
   constructor() {}
 
