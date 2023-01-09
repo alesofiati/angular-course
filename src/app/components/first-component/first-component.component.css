@@ -1,0 +1,7 @@
+.meu-primeiro-component{
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
