@@ -1,0 +1,10 @@
+<div class="class">
+  <div *ngIf="canShow; else messageNotFoud">
+    estou mostando aquilo que é permitido
+  </div>
+  <ng-template #messageNotFoud>
+    <div class="not-found">
+      Algo não deu certo
+    </div>
+  </ng-template>
+</div>
