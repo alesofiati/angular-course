@@ -1,0 +1,18 @@
+button{
+  border: none;
+  border-radius: 2px;
+  margin: 3px;
+  font-size: 15px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-info{
+  background-color: aqua;
+}
+
+.btn-success{
+  background-color: chartreuse;
+}
