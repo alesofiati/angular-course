@@ -9,6 +9,7 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventClickComponent } from './components/event-click/event-click.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
     IfRenderComponent,
     EventClickComponent,
     EmitterComponent,
-    ChangeNumberComponent
+    ChangeNumberComponent,
+    ListRenderComponent
   ],
   imports: [
     BrowserModule
