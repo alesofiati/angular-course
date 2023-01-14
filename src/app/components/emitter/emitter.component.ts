@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EmitterComponent implements OnInit {
 
   myNumber: number = 0
+  numerosGerados:any = []
 
   constructor(){}
 
@@ -15,7 +16,12 @@ export class EmitterComponent implements OnInit {
 
   onChangeNumber()
   {
-    this.myNumber = Math.floor(Math.random() * 10)
+    let numero = Math.floor(Math.random() * 1000)
+
+    if(!this.numerosGerados.includes(numero)){
+      this.myNumber = numero
+      this.numerosGerados.push(numero)
+    }
   }
 
 }
