@@ -1,0 +1,11 @@
+nav{
+  background-color: blanchedalmond;
+  padding: 5px;
+}
+nav > ul {
+  list-style: none;
+  display: flex;
+}
+nav > ul > li{
+  margin:5px;
+}
