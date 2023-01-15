@@ -5,6 +5,7 @@
     <li *ngFor="let animal of animais">
       {{ animal.name | uppercase }}
       <button (click)="showType(animal)">Mostrar Categoria</button>
+      <button (click)="removeAnimal(animal)">Remover</button>
     </li>
   </ul>
   <h3 *ngIf="type">Animal Tipo: {{type}}</h3>
