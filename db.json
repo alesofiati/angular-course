@@ -1,0 +1,9 @@
+{
+  "animals": [
+    { "id": 1, "name": "Luke", "type": "Cachorro" },
+    { "id": 2 , "name": "Mahi", "type": "Gato" },
+    { "id": 3, "name": "Pandora", "type": "Cachorro" },
+    { "id": 4, "name": "Cacau", "type": "Lobo" },
+    { "id": 5, "name": "Pantera", "type": "Lobo" }
+  ]
+}
